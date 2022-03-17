@@ -1,35 +1,49 @@
-# 2021 S2 Portafolio #1
+# 2022 S1 Portafolio #1
 
 El archivo debe llamarse **Portafolio1.py**, además respetar el nombre de las funciones que más adelante se describen
 Recordar hacer las validaciones de cada una de las restricciones
 
+## invertirNumero(num)
+Dado un parámetro **num** diferente a cero, la función debe revertir el orden de sus dígitos
+No utilizar funciones como **reverse** o similares
+Se permite número negativos y la respueste debe conservar su signo
+```python
+>>>invertirNumero(24)
+42
+>>>invertirNumero(-123)
+-321
+>>>invertirNumero(120)
+21
+```
+
 ## divisores(num)
-Imprimir los divisores de un número de manera descendente.
+Imprimir los divisores de un número de manera **descendente**.
 Solo números enteros positivos.
+Para esta forma de impresión hacer uso de la función print() con el parámtro adicional **end**
 
 ```python
 >>>divisores(24)
 '24, 12, 8, 6, 4, 3, 2, 1'
 ```
 
-## potenciaRecursivo(base, exponente)  
-Potencia de un número base elevado a un número exponente sin utilizar el operador de potencia.
+## multiplicacion(num, factor)  
+Multiplicación de un número  a un factor sin utilizar el operador de multiplicación.
 Para ambos parámtros solo números enteros positivos.
 
 ```python
->>>potenciaRecursivo(5, 2)
-25
+>>>multiplicacion(5, 2)
+10
 ```
 
-## divisionRecursivo(dividendo, divisor)
+## division(dividendo, divisor)
 Resultado de la división entera un número “dividendo” entre un número “divisor” sin utilizar el operador de división.
 Para ambos parámtros solo números enteros positivos.
 Tomar en cuenta la divisón entre cero no es permitido.
 
 ```python
->>>divisionRecursivo(25, 5)
+>>>division(25, 5)
 5
->>>divisionRecursivo(25, 0)
+>>>division(25, 0)
 'Error: División entre cero'  
 ```
 
@@ -72,3 +86,29 @@ Verificar que los parámtros ini y fin no sobre pasen el largo del número.
 'Error: Indices fuera del rango del número'
 ```
 
+## textoPalindromo(texto)
+Construir una función que reciba un texto cualquiera.
+El texto debe ser diferente a vacio
+Verificar que el texto sea idéntico si al ser leido de izquierda a derecha o de derecha a izquierda suene igual
+```python
+>>>textoPalindromo("OSO")
+True
+>>>textoPalindromo("CASA")
+False
+```
+
+## multiplicarElmentosLista(lista)
+Construir una función que reciba lista 
+La lista debe ser diferente a vacio
+Se multiplicará los elementos de la lista que sean **pares**, los demás elementos que no cumpla serán omitidos
+
+```python
+>>> multiplicarElmentosLista([2, 8, 5, 10])
+160
+>>> multiplicarElmentosLista([2, 3, 5, 18.3, 100.5])
+2
+>>> multiplicarElmentosLista([2, 8, 5, 10, 0])
+0
+>>> multiplicarElmentosLista([2, 8, True, [], "Hola", 5])
+16
+```
