@@ -21,7 +21,7 @@ Se permite número negativos y la respueste debe conservar su signo
 ## divisores(num)
 Imprimir los divisores de un número de manera **descendente**.
 Solo números enteros positivos.
-Para esta forma de impresión hacer uso de la función print() con el parámtro adicional **end**
+Para esta forma de impresión hacer uso de la función print() con el parámetro adicional **end**
 
 ```python
 >>>divisores(24)
@@ -30,7 +30,7 @@ Para esta forma de impresión hacer uso de la función print() con el parámtro 
 
 ## multiplicacion(num, factor)  
 Multiplicación de un número  a un factor sin utilizar el operador de multiplicación.
-Para ambos parámtros solo números enteros positivos.
+Para ambos parámetros solo números enteros positivos.
 
 ```python
 >>>multiplicacion(5, 2)
@@ -39,7 +39,7 @@ Para ambos parámtros solo números enteros positivos.
 
 ## division(dividendo, divisor)
 Resultado de la división entera un número “dividendo” entre un número “divisor” sin utilizar el operador de división.
-Para ambos parámtros solo números enteros positivos.
+Para ambos parámetros solo números enteros positivos.
 Tomar en cuenta la divisón entre cero no es permitido.
 
 ```python
@@ -76,7 +76,7 @@ El número puede ser positivos o negativos.
 ```
 ## indiceNumero(num, indice)
 Retorna el dígito del número según índices.
-Para ambos parámtros solo números enteros positivos.
+Para ambos parámetros solo números enteros positivos.
 ```python
 >>>indiceNumero(1335, 3)  	
 5
@@ -87,7 +87,7 @@ Para ambos parámtros solo números enteros positivos.
 ```
 ## cortarNumero(num, ini, fin)
 Construir una función que reciba un número y ordenados de manera ascendente.
-Para ambos parámtros solo números enteros positivos.
+Para ambos parámetros solo números enteros positivos.
 Verificar que los parámtros **ini** y **fin** no sobre pasen el largo del número.
 ```python
 >>>cortarNumero(1335, 1, 2)
