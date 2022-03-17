@@ -9,7 +9,7 @@ def test_invertirNumero_2():
     assert Portafolio1.invertirNumero(-123) == -321
     
 def test_invertirNumero_3():
-    assert Portafolio1.invertirNumero(120) == 20
+    assert Portafolio1.invertirNumero(120) == 21
 ###########################################################################
     
 def test_divisores_1():
