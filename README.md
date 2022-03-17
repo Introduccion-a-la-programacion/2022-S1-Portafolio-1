@@ -14,6 +14,8 @@ Se permite número negativos y la respueste debe conservar su signo
 -321
 >>>invertirNumero(120)
 21
+>>>invertirNumero(9)
+9
 ```
 
 ## divisores(num)
@@ -50,10 +52,14 @@ Tomar en cuenta la divisón entre cero no es permitido.
 ## corrimientoAEntero(num)
 Corrimientos al entero, pasar los números de la parte decimal a la parte entera.
 Mantener el signo en el caso que sea negativo.
+Máximo dos digitos en el decimal
+No usar str() ni convertir a lista u otra función pre construida por python
 
 ```python
 >>>corrimientoAEntero(133.5)   
 1335
+>>>corrimientoAEntero(133888.51)   
+13388851
 >>>corrimientoAEntero(-133.5)   
 -1335
 ```
@@ -61,10 +67,12 @@ Mantener el signo en el caso que sea negativo.
 Devolver la cantidad de dígitos que tiene esta representación numérica, pero esta vez tomando en cuenta los dígitos de la parte de los decimales. 
 El número puede ser positivos o negativos.
 ```python
->>>contarDigitosFlotante(133.578)
-6
->>>contarDigitosFlotante(-133.578)
-6
+>>>contarDigitosFlotante(133.58)
+5
+>>>contarDigitosFlotante(-133.5)
+4
+>>>contarDigitosFlotante(-13)
+2
 ```
 ## indiceNumero(num, indice)
 Retorna el dígito del número según índices.
@@ -72,13 +80,15 @@ Para ambos parámtros solo números enteros positivos.
 ```python
 >>>indiceNumero(1335, 3)  	
 5
+>>>indiceNumero(1389735, 3)  	
+9
 >>>indiceNumero(1335, 8)
 'Error: Indice fuera del rango del número'
 ```
 ## cortarNumero(num, ini, fin)
 Construir una función que reciba un número y ordenados de manera ascendente.
 Para ambos parámtros solo números enteros positivos.
-Verificar que los parámtros ini y fin no sobre pasen el largo del número.
+Verificar que los parámtros **ini** y **fin** no sobre pasen el largo del número.
 ```python
 >>>cortarNumero(1335, 1, 2)
 33
@@ -109,6 +119,8 @@ Se multiplicará los elementos de la lista que sean **pares**, los demás elemen
 2
 >>> multiplicarElmentosLista([2, 8, 5, 10, 0])
 0
+>>> multiplicarElmentosLista([2])
+2
 >>> multiplicarElmentosLista([2, 8, True, [], "Hola", 5])
 16
 ```
