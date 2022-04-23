@@ -113,14 +113,14 @@ La lista debe ser diferente a vacio
 Se multiplicará los elementos de la lista que sean **pares**, los demás elementos que no cumpla serán omitidos
 
 ```python
->>> multiplicarElmentosLista([2, 8, 5, 10])
+>>> multiplicarElementosLista([2, 8, 5, 10])
 160
->>> multiplicarElmentosLista([2, 3, 5, 18.3, 100.5])
+>>> multiplicarElementosLista([2, 3, 5, 18.3, 100.5])
 2
->>> multiplicarElmentosLista([2, 8, 5, 10, 0])
+>>> multiplicarElementosLista([2, 8, 5, 10, 0])
 0
->>> multiplicarElmentosLista([2])
+>>> multiplicarElementosLista([2])
 2
->>> multiplicarElmentosLista([2, 8, True, [], "Hola", 5])
+>>> multiplicarElementosLista([2, 8, True, [], "Hola", 5])
 16
 ```
