@@ -71,16 +71,16 @@ def test_textoPalindromo_2():
 ########################################################################### 
 
 def test_multiplicarElmentosLista_1():
-    assert Portafolio1.multiplicarElmentosLista([2, 8, 5, 10]) == 160
+    assert Portafolio1.multiplicarElementosLista([2, 8, 5, 10]) == 160
     
 def test_multiplicarElmentosLista_2():
-    assert Portafolio1.multiplicarElmentosLista([2, 3, 5, 10.5, 18.3]) == 2
+    assert Portafolio1.multiplicarElementosLista([2, 3, 5, 10.5, 18.3]) == 2
     
 def test_multiplicarElmentosLista_3():
-    assert Portafolio1.multiplicarElmentosLista([2, 8, 5, 10, 0]) == 0
+    assert Portafolio1.multiplicarElementosLista([2, 8, 5, 10, 0]) == 0
     
 def test_multiplicarElmentosLista_4():
-    assert Portafolio1.multiplicarElmentosLista([2, 8, True, [], "Hola", 5]) == 16    
+    assert Portafolio1.multiplicarElementosLista([2, 8, True, [], "Hola", 5]) == 16    
 
 
     
