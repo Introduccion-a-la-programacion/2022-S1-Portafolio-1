@@ -25,7 +25,7 @@ Para esta forma de impresión hacer uso de la función print() con el parámetro
 
 ```python
 >>>divisores(24)
-'24, 12, 8, 6, 4, 3, 2, 1'
+[24, 12, 8, 6, 4, 3, 2, 1]
 ```
 
 ## multiplicacion(num, factor)  
