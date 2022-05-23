@@ -71,7 +71,7 @@ El número puede ser positivos o negativos.
 5
 >>>contarDigitosFlotante(-133.5)
 4
->>>contarDigitosFlotante(-13)
+>>>contarDigitosFlotante(-13.0)
 2
 ```
 ## indiceNumero(num, indice)
