@@ -17,6 +17,11 @@ def test_divisores_1():
       
 ###########################################################################
 
+def test_potencia_1():
+    assert Portafolio1.potencia(5, 2) == 25
+
+###########################################################################
+    
 def test_multiplicacion_1():
     assert Portafolio1.multiplicacion(5, 2) == 10
     
