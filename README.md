@@ -27,6 +27,14 @@ Para esta forma de impresión hacer uso de la función print() con el parámetro
 >>>divisores(24)
 [24, 12, 8, 6, 4, 3, 2, 1]
 ```
+## potencia(base, exponente)  
+Potencia de un número base elevado a un número exponente sin utilizar el operador de potencia.
+Para ambos parámtros solo números enteros positivos.
+
+```python
+>>>potencia(5, 2)
+25
+```
 
 ## multiplicacion(num, factor)  
 Multiplicación de un número  a un factor sin utilizar el operador de multiplicación.
