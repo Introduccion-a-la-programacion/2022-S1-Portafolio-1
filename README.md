@@ -132,3 +132,21 @@ Se multiplicará los elementos de la lista que sean **pares**, los demás elemen
 >>> multiplicarElementosLista([2, 8, True, [], "Hola", 5])
 16
 ```
+## contarTriosDeDigitos(num)
+- Construir una función que retorne la cantidad de grupos de 3 dígitos que compone el número de parámetro de entrada.
+- El parámetro **num** debe ser entero
+- Por ejemplo : 
+  -  num = 256145, el resultado a retornar es 2, porque hay 2 grupos de 3 dígitos,  256 y 145
+  -  num = 245, el resultado a retornar es 1, porque hay 1 grupo de 3 dígitos,  solo 245
+  -  num = 15, el resultado a retornar es 0, porque NO hay de 3 dígitos,  solo dos dígitos
+
+```python
+>>>contarTriosDeDigitos(256145)     
+2
+>>>contarTriosDeDigitos(245)     
+1
+>>>contarTriosDeDigitos(15)     
+0
+>>>contarTriosDeDigitos('abc')     
+'Error: Solo es permitido número de tipo entero'
+```
