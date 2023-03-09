@@ -87,6 +87,15 @@ def test_multiplicarElmentosLista_3():
 def test_multiplicarElmentosLista_4():
     assert Portafolio1.multiplicarElementosLista([2, 8, True, [], "Hola", 5]) == 16    
 
+########################################################################### 
+    
+def test_contarTriosDeDigitos_1():
+    assert Portafolio1.contarTriosDeDigitos(256145)  == 2
 
-    
-    
+def test_contarTriosDeDigitos_1():
+    assert Portafolio1.contarTriosDeDigitos(245) == 1
+
+def test_contarTriosDeDigitos_2():
+    assert Portafolio1.contarTriosDeDigitos(15) == 0
+
+
